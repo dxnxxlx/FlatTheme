@@ -13,3 +13,176 @@
 .clearfix:after {
   clear: both;
 }
+
+body {
+	font-size: 10px;
+}
+
+/****HEADER*************/
+
+header{
+	width: 100%;
+	height: 80px;
+	
+}
+
+.navbar-inverse{
+	background-color: #34495E!important;
+	border: none;
+}
+
+.navbar-brand {
+        padding: 25px 15px;
+}
+
+.navbar-inverse .navbar-collapse {
+	    border-color: transparent;
+	    margin-top: 0; 
+	    font-size: 14px;
+	    color: #89959E;
+	    background-color: #34495E;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color: #2C3E50;
+}
+
+/***UTILITIES************/
+.pd-lr-3{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+/***BARRA SECCION************************/
+.barra-seccion{
+	margin-top: 80px;
+	background-color: #2ECC71;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 1.5rem;
+}
+.barra-seccion p, h1{
+	color: white;
+}
+
+.barra-seccion span{
+	color: #C0F0D4;
+}
+
+
+
+/**ABOUT US*********************/
+
+
+
+
+/**FOOTER**********************/
+
+.footer1{
+	background-color: #34495E;
+	color: #DEE1E5;
+	font-size: 1.4rem;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+}
+
+.footer1 a{
+	color: #DEE1E5;
+}
+
+.footer1 a:hover{
+	color: #FFFFFF;
+}
+
+.titulo-footer{
+	font-size: 1.8rem;
+}
+ul.lista-flecha{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+ul.lista-flecha li::before{
+	font-family: FontAwesome;
+  	font-size: 1.1rem;
+  	margin-right: 5px;
+  	content: "\f105";
+
+}
+
+.entrada-blog{
+	margin-top: 15px;
+}
+
+.titulo-blog{
+	line-height: 1.7;
+}
+
+.fecha-blog{
+	font-size: 1.2rem;
+}
+
+.entrada-blog img{
+	margin-right: 10px;
+}
+
+.direccion span{
+	font-weight: bold;
+}
+footer{
+	color: #bdc3c7;
+    font-size: 1.5rem;
+    padding: 30px 40px;
+    background-color: #2C3E50;
+}
+
+footer li{
+	display: inline-block;
+    margin-left: 15px;
+}
+
+footer li a{
+	text-decoration: none;
+	color: #bdc3c7;
+
+}
+
+footer li a:hover{
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+footer ul{
+	list-style: none;
+}
+@media (min-width: 768px){
+
+	.navbar-brand {
+    padding: 3px 40px;
+}
+
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+		color: #fff;
+	    background-color: #2C3E50;
+	}
+
+	.navbar-nav>li>a{
+		padding-top: 8px;
+	    padding-bottom: 8px;
+	    border-radius: 5px;
+	}
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #89959E;
+    margin-right: 35px;
+
+}
+	
+}
