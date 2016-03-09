@@ -50,28 +50,36 @@ header{
 }
 
 /***UTILITIES************/
-.pd-lr-7{
-    padding-left: 7%;
-    padding-right: 7%;
+.pd-lr-3{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.mgt-xs-3{
+	margin-top: 3%;
 }
 
 /***BARRA SECCION************************/
 .barra-seccion{
 	margin-top: 80px;
-	background-color: #2ECC71;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 1.5rem;
+    background-color: #2ECC71;
+    padding-top: 34px;
+    padding-bottom: 67px;
+    font-size: 1.4rem;
 }
+
 .barra-seccion p, h1{
 	color: white;
+	margin-bottom: 0;
 }
 
 .barra-seccion span{
 	color: #C0F0D4;
 }
 
-
+.barra-seccion .col-sm-6 .pull-right{
+	margin-top: 50px;
+}
 
 /**ABOUT US*********************/
 .about-us{
@@ -104,6 +112,57 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+.meet-team{
+	padding-bottom: 15px;
+}
+.img-perfil-team{
+ 	display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: #fff;
+
+}
+
+.nombre-perfil-team{
+	font-size: 14px;
+}
+
+.nombre-perfil-team span{
+	font-size: 13px;
+    color: #7D7D7D;
+    display: block;
+    padding-top: 3px;
+}
+
+.meet-team .btn{
+    width: 35px;
+    height: 35px;
+    padding: 7px 7px;
+	color: white;
+  	font-weight: 300;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+   
+.fb{
+	background-color: #4F7DD4;
+}
+
+.gplus{
+	background-color: #DC422B;
+}
+
+.twitter{
+	background-color: #5BCEFF;
+}
+
+.linkedin{
+	background-color: #21A6D8;
+}
+
 /**FOOTER**********************/
 
 .footer1{
@@ -142,6 +201,7 @@ ul.lista-flecha li::before{
 
 .entrada-blog{
 	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
 .titulo-blog{
@@ -188,9 +248,17 @@ footer ul{
 }
 @media (min-width: 768px){
 
+	.mgt-xs-3{
+		margin-top: 0;
+	}
+
+	.pd-lr-3{
+	    padding-left: 7%;
+	    padding-right: 7%;
+	}
 	.navbar-brand {
-    padding: 3px 40px;
-}
+    	padding: 3px 40px;
+	}
 
 	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 		color: #fff;
@@ -203,13 +271,16 @@ footer ul{
 	    border-radius: 5px;
 	}
 
-.navbar-inverse .navbar-collapse {
-    border-color: transparent;
-    margin-top: 22px;
-    font-size: 14px;
-    color: #89959E;
-    margin-right: 35px;
+	.navbar-inverse .navbar-collapse {
+	    border-color: transparent;
+	    margin-top: 22px;
+	    font-size: 14px;
+	    color: #89959E;
+	    margin-right: 35px;
+	}
 
+	.entrada-blog{
+		margin-bottom: 0;
 }
 	
 }
